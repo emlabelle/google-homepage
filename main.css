@@ -1,0 +1,132 @@
+* {
+    display: inline-block;
+    max-height: 800px;
+}
+
+a {
+    color: #000;
+    opacity: .75;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.wrapper {
+    background: #fff;
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: small;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+
+.button {
+    background: #eee;
+    border-radius: 2px;
+    display: inline;
+    height: 29px;
+    font-size: 10px;
+    font-weight: 600;
+    margin: 10px;
+    min-width: 54px;
+    padding: 10px 8px;
+}
+
+.headerlinks {
+    line-height: 24px;
+    text-decoration: none;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.footer {
+    background: #eee;
+    margin-top: 200px;
+    width: 50%;
+}
+
+.footer a {
+    margin: 18px;
+}
+
+#applauncher {
+    vertical-align: middle;
+}
+
+#buttons {
+    display: inline-block;
+    margin: 30px 0 0 100px 0;
+}
+
+#form {
+    height: 118px;
+}
+
+#headernav {
+    font-size 13px;
+    float: right;
+    min-width: 220px;
+    padding: 0 30px;
+}
+
+#logo {
+    display: inline-block;
+    height: 231px;
+    margin: 20px 0 20px 0;
+    padding: 112px 0 0 0;
+}
+
+#signin {
+    background: #44f;
+    border-radius: 2px;
+    display: inline;
+    height: 29px;
+    font-size: 10px;
+    font-weight: 600;
+    margin: 10px;
+    min-width: 54px;
+    padding: 10px 8px;
+}
+
+#signin a {
+    color: #fff;
+    opacity: 1;
+    text-decoration: none;
+}
+
+#searchbar {
+    border: #44f solid 1px;
+    float: center;
+    height: 25px;
+    margin-bottom: 30px;
+    padding: 5px;
+    width: 40%
+}
+
+#searchbar img {
+    float: right;
+    vertical-align: middle;
+}
+
+#fleft {
+    display: inline;
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+
+#fright {
+    display: inline;
+    float: right;
+    text-align: right;
+    width: 50%;
+}
